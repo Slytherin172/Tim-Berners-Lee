@@ -34,7 +34,7 @@ h1 {
 }
 .Menu{
 z-index:12;
-position: absolute;
+position: fixed;
 top:10px;
 right: 30px;
 list-style: none;
@@ -51,4 +51,13 @@ font-family: 'Raleway', sans-serif;
 }
 .links:hover{
 background-color: blanchedalmond;
+}
+html{
+ scroll-behavior: smooth;  
+}
+a{
+text-decoration: none;
+}
+.Write:hover{
+color:darkmagenta;
 }
